@@ -49,20 +49,20 @@ public class MainActivity extends AppCompatActivity {
         textView.setText("");
         answerView.setText("");
 
-
+//hello wrold hello movin
         button0.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (isFirst) {
-                //restricting user to type unwanted zeros
-                    if( !input1.equals("0") ) {
+                    //restricting user to type unwanted zeros
+                    if (!input1.equals("0")) {
                         input1 += "0";
                         //printing the given input
                         textView.setText(input1);
                     }
                 } else {
                     //restricting user to type unwanted zeros
-                    if(!input2.equals("0")){
+                    if (!input2.equals("0")) {
                         input2 += "0";
                         //printing the given inputs
                         textView.setText(input1 + operation + input2);
@@ -76,22 +76,20 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (isFirst) {
                     //removing unwanted zeros
-                    if( input1.equals("0")) {
-                        input1="1";
+                    if (input1.equals("0")) {
+                        input1 = "1";
                         textView.setText(input1);
-                    }
-                    else {
+                    } else {
                         input1 += "1";
                         //printing the given input
                         textView.setText(input1);
                     }
                 } else {
                     //removing unwanted zeros
-                    if( input2.equals("0")) {
-                        input2="1";
+                    if (input2.equals("0")) {
+                        input2 = "1";
                         textView.setText(input1 + operation + input2);
-                    }
-                    else {
+                    } else {
                         input2 += "1";
                         //printing the given inputs
                         textView.setText(input1 + operation + input2);
@@ -104,22 +102,20 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (isFirst) {
                     //removing unwanted zeros
-                    if( input1.equals("0")) {
-                        input1="2";
+                    if (input1.equals("0")) {
+                        input1 = "2";
                         textView.setText(input1);
-                    }
-                    else {
+                    } else {
                         input1 += "2";
                         //printing the given input
                         textView.setText(input1);
                     }
                 } else {
                     //removing unwanted zeros
-                    if( input2.equals("0")) {
-                        input2="2";
+                    if (input2.equals("0")) {
+                        input2 = "2";
                         textView.setText(input1 + operation + input2);
-                    }
-                    else {
+                    } else {
                         input2 += "2";
                         //printing the given inputs
                         textView.setText(input1 + operation + input2);
@@ -132,22 +128,20 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (isFirst) {
                     //removing unwanted zeros
-                    if( input1.equals("0")) {
-                        input1="3";
+                    if (input1.equals("0")) {
+                        input1 = "3";
                         textView.setText(input1);
-                    }
-                    else {
+                    } else {
                         input1 += "3";
                         //printing the given input
                         textView.setText(input1);
                     }
                 } else {
                     //removing unwanted zeros
-                    if( input2.equals("0")) {
-                        input2="3";
+                    if (input2.equals("0")) {
+                        input2 = "3";
                         textView.setText(input1 + operation + input2);
-                    }
-                    else {
+                    } else {
                         input2 += "3";
                         //printing the given inputs
                         textView.setText(input1 + operation + input2);
@@ -160,22 +154,20 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (isFirst) {
                     //removing unwanted zeros
-                    if( input1.equals("0")) {
-                        input1="4";
+                    if (input1.equals("0")) {
+                        input1 = "4";
                         textView.setText(input1);
-                    }
-                    else {
+                    } else {
                         input1 += "4";
                         //printing the given input
                         textView.setText(input1);
                     }
                 } else {
                     //removing unwanted zeros
-                    if( input2.equals("0")) {
-                        input2="4";
+                    if (input2.equals("0")) {
+                        input2 = "4";
                         textView.setText(input1 + operation + input2);
-                    }
-                    else {
+                    } else {
                         input2 += "4";
                         //printing the given inputs
                         textView.setText(input1 + operation + input2);
@@ -188,22 +180,20 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (isFirst) {
                     //removing unwanted zeros
-                    if( input1.equals("0")) {
-                        input1="5";
+                    if (input1.equals("0")) {
+                        input1 = "5";
                         textView.setText(input1);
-                    }
-                    else {
+                    } else {
                         input1 += "5";
                         //printing the given input
                         textView.setText(input1);
                     }
                 } else {
                     //removing unwanted zeros
-                    if( input2.equals("0")) {
-                        input2="5";
+                    if (input2.equals("0")) {
+                        input2 = "5";
                         textView.setText(input1 + operation + input2);
-                    }
-                    else {
+                    } else {
                         input2 += "5";
                         //printing the given inputs
                         textView.setText(input1 + operation + input2);
@@ -216,22 +206,20 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (isFirst) {
                     //removing unwanted zeros
-                    if( input1.equals("0")) {
-                        input1="6";
+                    if (input1.equals("0")) {
+                        input1 = "6";
                         textView.setText(input1);
-                    }
-                    else {
+                    } else {
                         input1 += "6";
                         //printing the given input
                         textView.setText(input1);
                     }
                 } else {
                     //removing unwanted zeros
-                    if( input2.equals("0")) {
-                        input2="6";
+                    if (input2.equals("0")) {
+                        input2 = "6";
                         textView.setText(input1 + operation + input2);
-                    }
-                    else {
+                    } else {
                         input2 += "6";
                         //printing the given inputs
                         textView.setText(input1 + operation + input2);
@@ -244,22 +232,20 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (isFirst) {
                     //removing unwanted zeros
-                    if( input1.equals("0")) {
-                        input1="7";
+                    if (input1.equals("0")) {
+                        input1 = "7";
                         textView.setText(input1);
-                    }
-                    else {
+                    } else {
                         input1 += "7";
                         //printing the given input
                         textView.setText(input1);
                     }
                 } else {
                     //removing unwanted zeros
-                    if( input2.equals("0")) {
-                        input2="7";
+                    if (input2.equals("0")) {
+                        input2 = "7";
                         textView.setText(input1 + operation + input2);
-                    }
-                    else {
+                    } else {
                         input2 += "7";
                         //printing the given inputs
                         textView.setText(input1 + operation + input2);
@@ -272,22 +258,20 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (isFirst) {
                     //removing unwanted zeros
-                    if( input1.equals("0")) {
-                        input1="8";
+                    if (input1.equals("0")) {
+                        input1 = "8";
                         textView.setText(input1);
-                    }
-                    else {
+                    } else {
                         input1 += "8";
                         //printing the given input
                         textView.setText(input1);
                     }
                 } else {
                     //removing unwanted zeros
-                    if( input2.equals("0")) {
-                        input2="8";
+                    if (input2.equals("0")) {
+                        input2 = "8";
                         textView.setText(input1 + operation + input2);
-                    }
-                    else {
+                    } else {
                         input2 += "8";
                         //printing the given inputs
                         textView.setText(input1 + operation + input2);
@@ -300,22 +284,20 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (isFirst) {
                     //removing unwanted zeros
-                    if( input1.equals("0")) {
-                        input1="9";
+                    if (input1.equals("0")) {
+                        input1 = "9";
                         textView.setText(input1);
-                    }
-                    else {
+                    } else {
                         input1 += "9";
                         //printing the given input
                         textView.setText(input1);
                     }
                 } else {
                     //removing unwanted zeros
-                    if( input2.equals("0")) {
-                        input2="9";
+                    if (input2.equals("0")) {
+                        input2 = "9";
                         textView.setText(input1 + operation + input2);
-                    }
-                    else {
+                    } else {
                         input2 += "9";
                         //printing the given inputs
                         textView.setText(input1 + operation + input2);
@@ -343,7 +325,7 @@ public class MainActivity extends AppCompatActivity {
                         textView.setText(input1 + operation + input2);
                     } else {
                         //making sure that user can't type unwanted zeros
-                        input2="0";
+                        input2 = "0";
                         textView.setText(input1 + operation + input2);
                     }
                 }
